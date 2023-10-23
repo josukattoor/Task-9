@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e40f0f;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: #a93b3b;
+    
+    padding: 20px;
+    max-width: 500px;
+    margin: 0 auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    text-align: center;
+    margin-top: 0;
+}
+
+.input-section {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+}
+
+input, button {
+    padding: 10px;
+    margin: 5px 0;
+}
+
+button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.output-section {
+    border: 1px solid #0a0909;
+    padding: 10px;
+    margin-top: 20px;
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!-- Link to Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+        rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+        crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <div class="container-fluid text-bg-primary p-3">
+        <h1 class="text-white">Bish-Bosh 2.0</h1>
+        <p class="text-white">This is a Bish-Bosh web application. Enter the numbers and range below.</p>
+        <p>Bish-Bosh lists all numbers between 1 and 100, but some exceptions: If the number is evenly divisible
+            with 3, 'Bish' is listed instead of the number. If the number is evenly divisible by 4, 'Bosh' is listed instead
+            the number. If the number is evenly divisible by both 3 and 4, "Bish-Bosh" is written instead of the number.
+            Example:
+            1, 2, Bish, Bosh, 5, Bish, 7, Bosh, Bish, 10, 11, Bish-Bosh, 13, 14, Bish [...].
+            </p>
+        <div class="input-section">
+            <label for="range">Loop Range:</label>
+            <input type="number" id="range" placeholder="Enter loop range">
+        </div>
+
+        <div class="input-section">
+            <label for="bish">Bish (Replace 3):</label>
+            <input type="number" id="bish" placeholder="Enter Bish number">
+        </div>
+
+        <div class="input-section">
+            <label for="bosh">Bosh (Replace 4):</label>
+            <input type="number" id="bosh" placeholder="Enter Bosh number">
+        </div>
+        <button id="startButton" class="btn btn-light">Start Bish-Bosh</button>
+
+        <div id="output" class="output-section"></div>
+    </div>
+    </div>
+
+    <script src="bishbosh.js"></script>
+</body>
+       <div class="text-white text-center py-2">
+       <span class="badge text-bg-primary">&copy; 2023 Bish-Bosh 2.0 | Webmaster: Jossy Sebastian</span></div>
+    </div>
+<!-- </div> -->
+</footer>
+</html>
